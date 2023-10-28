@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#arrayContainer {
+    margin: 20px 0;
+}
+
+#arrayContainer span {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+#status {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+
+   
+    /* margin: 0%;
+    padding: 0%; */
+    
+
+
+}
+
+body{
+    background-color: #47bdd7;
+}
+
+.cantainer{
+
+    display: grid;
+     
+    grid-template-areas:'header menu'
+    'main right'
+
+     
+    /* grid-template-columns: 50% 50%;
+    justify-content: space-between; */
+}
+
+
+.binary{
+    
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.Linear{
+    
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    padding: 20px;
+    text-align: center;
+}
+
+
+.Insertion{
+    
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    padding: 20px;
+    text-align: center;
+}
+
+
+.Linklist{
+    
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    background-color:white ;
+
+}
+
+button:hover{
+    border-radius: 10px;
+     shape-outside: margin-box;
+    background-color:rgba(207, 223, 30, 0.944) ;
+ 
+}
+ 
+
+.binary { grid-area: header; }
+.Linear { grid-area: menu; }
+.Linklist { grid-area: main; }
+.Insertion { grid-area: right; }
+.item5 { grid-area: footer; }
+
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 400%;
+}
+
+h1:hover{
+    color: cornsilk;
+
+}
